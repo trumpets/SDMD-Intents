@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Intents</string>
+    <string name="hint_enter_name">Enter your name</string>
+    <string name="say_hello">Say Hello</string>
+    <string name="choose_color">Choose Color</string>
+    <string name="red">Red</string>
+    <string name="green">Green</string>
+    <string name="blue">Blue</string>
+    <string name="choose">Choose</string>
+</resources>
