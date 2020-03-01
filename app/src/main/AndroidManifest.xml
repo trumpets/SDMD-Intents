@@ -16,7 +16,7 @@
             </intent-filter>
         </activity>
         <activity android:name=".GreetingActivity" />
-        <activity android:name=".ColorChooserActivity"></activity>
+        <activity android:name=".ColorChooserActivity" />
     </application>
 
 </manifest>

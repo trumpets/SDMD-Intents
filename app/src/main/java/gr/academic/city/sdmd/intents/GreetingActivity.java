@@ -1,7 +1,7 @@
 package gr.academic.city.sdmd.intents;
 
 import android.os.Bundle;
-import android.support.v7.app.AppCompatActivity;
+import androidx.appcompat.app.AppCompatActivity;
 import android.widget.TextView;
 
 public class GreetingActivity extends AppCompatActivity {
