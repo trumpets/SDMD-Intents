@@ -3,9 +3,10 @@ package gr.academic.city.sdmd.intents;
 import android.content.Intent;
 import android.graphics.Color;
 import android.os.Bundle;
-import androidx.appcompat.app.AppCompatActivity;
 import android.view.View;
 import android.widget.RadioGroup;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 public class ColorChooserActivity extends AppCompatActivity {
 

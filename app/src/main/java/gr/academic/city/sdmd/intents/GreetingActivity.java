@@ -1,8 +1,9 @@
 package gr.academic.city.sdmd.intents;
 
 import android.os.Bundle;
-import androidx.appcompat.app.AppCompatActivity;
 import android.widget.TextView;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 public class GreetingActivity extends AppCompatActivity {
 
@@ -13,7 +14,7 @@ public class GreetingActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_greeting);
 
-        TextView greetingTextView = (TextView) findViewById(R.id.tv_greeting);
+        TextView greetingTextView = findViewById(R.id.tv_greeting);
         greetingTextView.setText("Hello " + getIntent().getStringExtra(EXTRA_NAME));
     }
 }
